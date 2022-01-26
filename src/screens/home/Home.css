@@ -1,0 +1,34 @@
+#heading{
+    background-color: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.root{
+    display: block;
+}
+.imageList{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap !important;
+    transform: translateZ(0);
+    cursor: pointer;
+}
+
+.left{
+    width:76%;
+}
+.left-root {
+    display: flex;
+    justify-content: space-around;
+    overflow:hidden; 
+
+  }
+  .left-imageList{
+      cursor: pointer;
+  }
+  .right{
+      width: 24%;
+      margin: 16px;
+  }
