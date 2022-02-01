@@ -18,6 +18,9 @@
 
 .left{
     width:76%;
+    display: flex;
+    float: left;
+    
 }
 .left-root {
     display: flex;
@@ -29,6 +32,14 @@
       cursor: pointer;
   }
   .right{
+      
       width: 24%;
-      margin: 16px;
+      display:flex;
+      float: right;
+      
+  }
+  .right-root{
+      width: 100%;
+      background-color:"theme.palette.primary.light";
+      padding: 5%;
   }
