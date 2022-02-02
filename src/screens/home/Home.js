@@ -7,6 +7,7 @@ import ImageListItem from '@material-ui/core/ImageListItem';
 import ImageListItemBar from '@material-ui/core/ImageListItemBar';
 
 import RightBlock from './filter';
+import Details from '../details/Details';
 
 
 class Home extends Component {
@@ -33,7 +34,7 @@ class Home extends Component {
                 <span ><div id='heading'>Upcoming Movies</div></span>
 
                 <div className='root'>
-                    <ImageList className='imageList' cols={6}>
+                    <ImageList className='MovieImage' cols={6}>
                         {this.state.movie.map((moviesData) => (
                             <ImageListItem key={moviesData.id}>
                                 <img src={moviesData.poster_url} alt={moviesData.title} />
@@ -67,7 +68,11 @@ class Home extends Component {
                             <RightBlock />
                     </div>
                 </div>
+               
             </div>
+            
+
+        
         );
     }
 }

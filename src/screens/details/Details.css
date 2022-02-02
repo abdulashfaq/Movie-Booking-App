@@ -1,0 +1,37 @@
+.MainContainer{
+    width: 100%;
+    margin:1% ,2%;
+    gap: 2%;
+
+    
+}
+.backButton{
+    margin-left: 24px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.left-container{
+
+   width: 20%;
+   height:fit-content;
+   display: inline-block; 
+}
+.MoviePoster{
+    margin: 0 10px 0 20px;
+}
+
+.middle-container{
+    
+    width: 60%;
+    display: inline-block;
+   
+ }
+ .right-container{
+   
+    width: 20%;
+   
+    display: inline-block;
+ }
